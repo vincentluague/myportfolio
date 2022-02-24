@@ -11,7 +11,7 @@ function About() {
           <br /> I love experimenting with the web.
           </div>
         <div className='about-photo'>
-            <img src={require('../../../assets/vincentpic.png')} className='picture' />
+            <img src={require('../../../assets/vincentpic.png')} className='picture' alt='about-img'/>
         </div>
       </div>
      <SocialContact />
