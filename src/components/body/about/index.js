@@ -8,7 +8,7 @@ function About() {
         <div className='about-info'>
           Hello There 👋, I am
           <br /> <span className='info-name'> Vincent Luague </span>. 
-          <br /> I love experimenting with the web.
+          <br /> Full Stack Web Developer / Data Analyst 
           </div>
         <div className='about-photo'>
             <img src={require('../../../assets/vincentpic.png')} className='picture' alt='about-img'/>

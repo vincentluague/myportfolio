@@ -4,6 +4,7 @@ import About from './about/index'
 import Projects from './projects/index'
 import Skills from './skills/index'
 import Work from './work/index'
+import Education from './education/index'
 import Contact from './contact/index'
 function Body() {
   return (
@@ -19,6 +20,9 @@ function Body() {
       </section>
       <section id='work'>
         <Work />
+      </section>
+      <section id='education'>
+        <Education />
       </section>
       <section id='contact'>
         <Contact />

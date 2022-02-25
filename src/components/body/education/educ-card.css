@@ -1,0 +1,39 @@
+.educ-card {
+  padding: 8px;
+  width: 45%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.educ-logo {
+  height: 80px;
+}
+
+.educ-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.educ-dates {
+  color: gray;
+}
+
+.educ-desc {
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+}
+
+@media only screen and (max-width: 720px) {
+  .educ-card {
+    width: 100%;
+  }
+}
